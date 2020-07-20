@@ -5,8 +5,6 @@ import numpy as np
 import threading
 import traitlets
 
-#version 0.3 hallo?
-
 class RTSPCamera(Camera):
     
     capture_fps = traitlets.Integer(default_value=15)
